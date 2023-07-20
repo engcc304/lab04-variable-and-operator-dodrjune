@@ -34,18 +34,18 @@ int main() {
     char EmployeesID [10] ; 
     int hr , amount ;
     float US ; 
-    printf ( " Employees ID " ) ; 
+    printf ( " Employees ID \n" ) ; 
     scanf ( "%s", EmployeesID  ) ; 
-    printf ( " working hrs " ) ; 
+    printf ( " working hrs \n" ) ; 
     scanf ( "%d", &hr ) ; 
-    printf ( " amount hr " ) ;
+    printf ( " amount hr \n" ) ;
     scanf ( "%d" , &amount ) ; 
-    printf ( " Expected Output " ) ; 
+    printf ( " Expected Output:\n" ) ; 
     
     US = amount * hr ; 
 
     printf ( " Employees ID = %s \n ", EmployeesID ) ; 
-    printf ( " Salary = US  %.2f" , US ) ;
+    printf ( " Salary = US  %.2f\n" , US ) ;
 
     return 0 ;
 }//end main function
