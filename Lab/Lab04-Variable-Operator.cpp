@@ -40,6 +40,7 @@ int main() {
     scanf ( "%d", &hr ) ; 
     printf ( " amount hr " ) ;
     scanf ( "%d" , &amount ) ; 
+    printf ( " Expected Output " ) ; 
     
     US = amount * hr ; 
 
