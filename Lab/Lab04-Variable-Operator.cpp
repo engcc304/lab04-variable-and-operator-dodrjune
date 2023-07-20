@@ -31,21 +31,22 @@
 int main() {
 
     //--| YOUR CODE HERE
-    char EmployeesID [10] ; 
-    int hr , amount ;
-    float U$ ; 
-    printf ( " EmployeesID \n" ) ; 
-    scanf ( "%s", EmployeesID ) ; 
-    printf ( " working hrs \n" ) ; 
-    scanf ( "%d", &hr ) ; 
-    printf ( " amount hr \n" ) ;
-    scanf ( "%d" , &amount ) ; 
-    printf ( " Expected Output:\n" ) ; 
-    
-    U$ = amount * hr ; 
+    char EmployeeID[10];
+    float hours;
+    float salaryperhours;
+    float salary;
 
-    printf ( " EmployeesID = %s\n", EmployeesID ) ; 
-    printf ( " Salary = US  %.2f\n" , U$ ) ;
+    printf("Input the Employees ID:\n");
+    scanf("%s",EmployeeID);
+    printf("Input the working hrs:\n");
+    scanf("%f",&hours);
+    printf("Salary amount/hr:\n");
+    scanf("%f",&salaryperhours);
 
-    return 0 ;
+    salary = salaryperhours * hours;
+    printf("Expected Output:\n");
+    printf("Employees ID = %s\n",EmployeeID);
+    printf("Salary = U$ %0.2f\n",salary);
+
+    return 0;
 }//end main function
