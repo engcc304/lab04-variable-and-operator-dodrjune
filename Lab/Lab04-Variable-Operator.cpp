@@ -34,7 +34,7 @@ int main() {
     char EmployeesID [10] ; 
     int hr , amount ;
     float US ; 
-    printf ( " Employees ID \n" ) ; 
+    printf ( " EmployeesID \n" ) ; 
     scanf ( "%s", EmployeesID ) ; 
     printf ( " working hrs \n" ) ; 
     scanf ( "%d", &hr ) ; 
