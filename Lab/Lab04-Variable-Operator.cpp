@@ -44,7 +44,7 @@ int main() {
     
     US = amount * hr ; 
 
-    printf ( " Employees ID = %s \n ", EmployeesID ) ; 
+    printf ( " Employees ID = %s\n", EmployeesID ) ; 
     printf ( " Salary = US  %.2f\n" , US ) ;
 
     return 0 ;
